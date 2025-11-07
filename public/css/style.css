@@ -19,3 +19,11 @@ footer a:hover { color: #ff7e5f; }
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
   transition: all 0.3s ease-in-out;
 }
+.list-group-item {
+  border: none;
+  font-size: 1.1rem;
+}
+
+hr {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
