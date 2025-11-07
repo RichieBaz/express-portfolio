@@ -1,8 +1,50 @@
 <%- include('partials/header') %>
-<h2>My Projects</h2>
-<ul>
-  <li><strong>Express Portfolio Website:</strong> This site built using Node.js, Express, and EJS templates.</li>
-  <li><strong>Cybersecurity Labs:</strong> Explored encryption like RSA and Diffie-Hellman to secure communication.</li>
-  <li><strong>Networking Simulation:</strong> Configured routers, VLANs, and switches for secure network topologies.</li>
-</ul>
+
+<div class="container mt-5 text-center">
+  <h2 class="mb-4">My Projects</h2>
+
+  <div class="row g-4 justify-content-center">
+
+    <!-- Project 1 -->
+    <div class="col-md-4">
+      <div class="card bg-dark text-white border-light shadow-sm h-100">
+        <div class="card-body">
+          <h5 class="card-title">Express Portfolio Website</h5>
+          <p class="card-text">
+            This site was built using Node.js, Express, and EJS templates.  
+            It demonstrates my understanding of server-side rendering and Bootstrap styling.
+          </p>
+          <span class="badge bg-primary">Web Development</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="col-md-4">
+      <div class="card bg-dark text-white border-light shadow-sm h-100">
+        <div class="card-body">
+          <h5 class="card-title">Cybersecurity Labs</h5>
+          <p class="card-text">
+            Completed labs exploring encryption methods such as RSA and Diffie-Hellman to secure communication.
+          </p>
+          <span class="badge bg-success">Cybersecurity</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="col-md-4">
+      <div class="card bg-dark text-white border-light shadow-sm h-100">
+        <div class="card-body">
+          <h5 class="card-title">Networking Simulation</h5>
+          <p class="card-text">
+            Configured routers, VLANs, and switches in Cisco Packet Tracer to create secure network topologies.
+          </p>
+          <span class="badge bg-warning text-dark">Networking</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
 <%- include('partials/footer') %>
